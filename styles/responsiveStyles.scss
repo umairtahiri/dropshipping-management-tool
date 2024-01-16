@@ -1,0 +1,72 @@
+html {
+  @media screen and (max-width: 700px) {
+    font-size: 85% !important;
+  }
+}
+
+.MuiButton-contained {
+  @media screen and (max-width: 700px) {
+    padding: 5px 14px !important;
+    min-width: unset !important;
+    font-size: 0.8rem !important;
+    height: auto !important;
+  }
+}
+
+.MuiLoadingButton-root {
+  @media screen and (max-width: 700px) {
+    padding: 5px 14px !important;
+    min-width: unset !important;
+    font-size: 0.8rem !important;
+    height: auto !important;
+  }
+}
+
+.MuiButton-text {
+  @media screen and (max-width: 700px) {
+    padding: 5px 14px !important;
+    min-width: unset !important;
+    font-size: 1rem !important;
+    height: auto !important;
+  }
+}
+
+.MuiTypography-body1 {
+  @media screen and (max-width: 1600px) {
+    font-size: 14px !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 12px !important;
+  }
+}
+
+.MuiTypography-body2 {
+  @media screen and (max-width: 1600px) {
+    font-size: 16px !important;
+  }
+}
+
+.MuiTypography-subtitle1 {
+  @media screen and (max-width: 1600px) {
+    font-size: 16px !important;
+  }
+}
+
+.MuiTypography-h4 {
+  @media screen and (max-width: 1600px) {
+    font-size: 20px !important;
+  }
+}
+
+.MuiTypography-h5 {
+  @media screen and (max-width: 1600px) {
+    font-size: 16px !important;
+  }
+}
+
+.MuiTypography-h6 {
+  @media screen and (max-width: 1600px) {
+    font-size: 14px !important;
+  }
+}

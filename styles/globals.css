@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-blue {
+    @apply py-2 px-4 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  a {
+    @apply text-blue-600 hover:text-blue-500 cursor-pointer;
+  }
+}
+
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+html {
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.slick-dots .slick-active button:before {
+  font-size: 12px;
+  color: #4bbcaa !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: #666666;
+}
+.slick-dots {
+  bottom: -10px;
+}
+
+.MuiCheckbox-root {
+  color: #000 !important;
+}
+
+input.MuiOutlinedInput-input {
+  padding: 0.5rem 0.75rem !important;
+}
+
+.MuiInputBase-input {
+  box-shadow: none !important;
+}
+
+.MuiInputLabel-shrink {
+  background-color: white !important;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+[type="text"]:focus,
+[type="email"]:focus,
+[type="url"]:focus,
+[type="password"]:focus,
+[type="number"]:focus,
+[type="date"]:focus,
+[type="datetime-local"]:focus,
+[type="month"]:focus,
+[type="search"]:focus,
+[type="tel"]:focus,
+[type="time"]:focus,
+[type="week"]:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+  --tw-ring-color: #6b7280 !important;
+}
+
+#order-simple-tabpanel > .MuiBox-root {
+  padding: 24px 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1;
+}
+
+.sharove-color {
+  color: #4bbcaa !important;
+}
+
+.default-black-color {
+  color: #333 !important;
+}
+
+.black-color-12 {
+  color: #333 !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+
+.black-color-11 {
+  color: #333333 !important;
+  font-weight: 400 !important;
+  font-size: 11px !important;
+}
+
+.grey-color-14 {
+  color: #666 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.grey-color-12 {
+  color: #666 !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+
+.grey-color-11 {
+  color: #666 !important;
+  font-weight: 400 !important;
+  font-size: 11px !important;
+}
+
+.grey-color-10 {
+  color: #666 !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+}
+
+.light-grey {
+  color: #686868 !important;
+}
+
+.blue-color {
+  color: #3eb4da !important;
+}
+
+.yellow-color {
+  color: #ffa400;
+}
+
+.maroon-color {
+  color: #b00020;
+}
+
+.MuiList-root {
+  max-height: 300px;
+}
